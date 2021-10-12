@@ -5,7 +5,7 @@ using System.Text;
 
 namespace inheritance
 {
-    class KomisiTambahanKaryawan
+    public class KomisiTambahanKaryawan
     {
         public string NamaDepan;
         public string NamaBelakang;
@@ -96,7 +96,7 @@ namespace inheritance
             return string.Format("Nama Depan : {0} \nNama Belakang : {1} \nSSN : {2} \nPenjualan Kotor : {3} \nTingkat Komisi : {4} \nGaji Pokok : {5}", NamaDepan, NamaBelakang, SocialSecurityNumber, penjualanKotor, tingkatKomisi, gajiPokok);
         }
     }
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
