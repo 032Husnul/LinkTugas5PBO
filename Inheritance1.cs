@@ -106,7 +106,7 @@ namespace Inheritance
             return tingkatKomisi * penjualanKotor;
         }
     }
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
