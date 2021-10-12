@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Inheritance
 {
-    class KomisiKaryawan
+    public class KomisiKaryawan
     {
         public string NamaDepan;
         public string NamaBelakang;
